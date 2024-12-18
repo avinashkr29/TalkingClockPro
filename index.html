@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkySeekr - AR for the Adventurous Soul</title>
-    <meta name="description" content="Unlock the secrets of the sky with SkySeekr - An innovative AR app for astronomy and landmark spotting">
+    <title>Talking Clock Pro - Your Personal Time Announcer</title>
+    <meta name="description" content="Stay on schedule with Talking Clock Pro - An innovative app that announces time at customizable intervals">
     <link rel="stylesheet" href="src/styles/globals.css">
-    <!-- Add Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -14,12 +13,12 @@
     <nav class="nav">
         <div class="container nav-container">
             <div class="logo">
-                <h2>SkySeekr</h2>
+                <h2>Talking Clock Pro</h2>
             </div>
             <div class="nav-links">
                 <button id="langToggle" class="lang-toggle">日本語</button>
                 <a href="#features" data-i18n="nav.features">Features</a>
-                <a href="https://apps.apple.com/in/app/skyseekr/id6736524307" data-i18n="nav.download">Download</a>
+                <a href="https://apps.apple.com/app/speaking-clock-pro/id123456789" data-i18n="nav.download">Download</a>
                 <a href="#contact" data-i18n="nav.contact">Contact</a>
                 <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
             </div>
@@ -29,18 +28,15 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content animate-fade-in">
-            <h1>SkySeekr</h1>
-            <p class="hero-subtitle" data-i18n="hero.subtitle">AR for the adventurous soul</p>
+            <h1>Talking Clock Pro</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Your Personal Time Announcer</p>
             <p class="hero-description" data-i18n="hero.description">
-                Unlock the secrets of the sky with augmented reality.
-                Discover landmarks, track celestial bodies, and explore the world around you.
+                Stay on schedule with elegant time announcements. Perfect for productivity,
+                accessibility, and maintaining time awareness throughout your day.
             </p>
             <div class="hero-buttons">
-                <a href="https://apps.apple.com/in/app/skyseekr/id6736524307" class="btn btn-primary" data-i18n="hero.downloadNow">Download Now</a>
+                <a href="https://apps.apple.com/app/speaking-clock-pro/id123456789" class="btn btn-primary" data-i18n="hero.downloadNow">Download Now</a>
                 <a href="#learn-more" class="btn btn-secondary" data-i18n="hero.learnMore">Learn More</a>
-            </div>
-            <div class="qr-code-container">
-                <img src="public/images/content/qr_skyseekr.png" alt="Download QR Code" class="qr-code">
             </div>
         </div>
     </section>
@@ -88,195 +84,167 @@
         </div>
     </section>
 
-    <!-- Benefits Section -->
-    <section id="learn-more" class="learn-more">
-        <div class="container">
-            <h2 data-i18n="benefits.title">How SkySeekr Enhances Your Experience</h2>
-            <div class="features-grid">
-                <!-- Outdoor Enthusiasts Section -->
-                <div class="feature-card">
-                    <i class="fas fa-hiking fa-2x"></i>
-                    <h3 data-i18n="benefits.outdoorTitle">For Outdoor Enthusiasts & Hikers</h3>
-                    <ul style="list-style: none; padding: 0; margin-top: 1rem;">
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.outdoorList.0">Never get lost at viewpoints</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.outdoorList.1">Discover hidden landmarks</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.outdoorList.2">Plan routes effectively</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.outdoorList.3">Share discoveries with fellow hikers</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Astronomy Section -->
-                <div class="feature-card">
-                    <i class="fas fa-star fa-2x"></i>
-                    <h3 data-i18n="benefits.astronomyTitle">For Astronomy Enthusiasts & Students</h3>
-                    <ul style="list-style: none; padding: 0; margin-top: 1rem;">
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.astronomyList.0">Interactive astronomy learning</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.astronomyList.1">Real-world geography lessons</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.astronomyList.2">Engaging educational tool</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.astronomyList.3">No need for expensive equipment</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Travelers Section -->
-                <div class="feature-card">
-                    <i class="fas fa-camera fa-2x"></i>
-                    <h3 data-i18n="benefits.travelersTitle">For Travelers & Tourists</h3>
-                    <ul style="list-style: none; padding: 0; margin-top: 1rem;">
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.travelersList.0">Instant landmark identification</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.travelersList.1">Create memorable experiences</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.travelersList.2">Smart trip planning</span>
-                        </li>
-                        <li style="margin-bottom: 0.8rem;">
-                            <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
-                            <span data-i18n="benefits.travelersList.3">Discover local points of interest</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div style="text-align: center; margin-top: 3rem;">
-                <p style="max-width: 800px; margin: 0 auto; font-size: 1.1rem;" data-i18n="benefits.description">
-                    SkySeekr transforms your smartphone into a powerful tool for exploration and discovery. 
-                    Whether you're hiking through mountains, studying the night sky, or exploring a new city, 
-                    our AR technology makes every experience more informative and engaging.
-                </p>
-                <div class="hero-buttons" style="margin-top: 2rem;">
-                    <a href="https://apps.apple.com/in/app/skyseekr/id6736524307" class="btn btn-primary" data-i18n="benefits.startExploring">Start Exploring Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2 data-i18n="features.title">Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-mountain fa-2x"></i>
-                    <h3 data-i18n="features.landmarkSpotter.title">Landmark Spotter</h3>
-                    <p data-i18n="features.landmarkSpotter.description">Identify mountains and landmarks in real-time using advanced AR technology</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-star fa-2x"></i>
-                    <h3 data-i18n="features.planetSpotter.title">Planet Spotter</h3>
-                    <p data-i18n="features.planetSpotter.description">Find and observe planets, the Sun, and the Moon in real-time</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-map-marked-alt fa-2x"></i>
-                    <h3 data-i18n="features.customPackages.title">Custom Packages</h3>
-                    <p data-i18n="features.customPackages.description">Create and manage your own sets of landmarks for personalized exploration</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 data-i18n="contact.title">Contact Us</h2>
-            <div class="contact-content">
-                <p data-i18n="contact.description">Have questions or feedback? We'd love to hear from you!</p>
-                <div class="contact-methods">
-                    <a href="mailto:harmonyastroapp@gmail.com" class="contact-method">
-                        <i class="fas fa-envelope fa-2x"></i>
-                        <span data-i18n="contact.emailUs">Email Us</span>
-                    </a>
-                    <a href="https://twitter.com/" class="contact-method">
-                        <i class="fab fa-twitter fa-2x"></i>
-                        <span data-i18n="contact.followUs">Follow Us</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<!-- Privacy Policy Section -->
-<section id="privacy" class="privacy">
+<!-- Benefits Section -->
+<section id="learn-more" class="learn-more">
     <div class="container">
-        <h2 data-i18n="privacy.title">Privacy Policy</h2>
-        <div class="privacy-content">
-            <h3 data-i18n="privacy.subtitle">Your Privacy Matters</h3>
-            <p data-i18n="privacy.intro">At SkySeekr, we take your privacy seriously. Here's what you need to know about how we handle your data:</p>
-            
-            <div class="privacy-details">
-                <h4 data-i18n="privacy.dataCollection.title">Data Collection</h4>
-                <p data-i18n="privacy.dataCollection.description">We collect minimal data necessary for app functionality, including:</p>
-                <ul>
-                    <li data-i18n="privacy.dataCollection.items.0">Location data (only when using the app)</li>
-                    <li data-i18n="privacy.dataCollection.items.1">Device orientation data</li>
-                    <li data-i18n="privacy.dataCollection.items.2">Camera access (only when using AR features)</li>
+        <h2 data-i18n="benefits.title">How Talking Clock Pro Enhances Your Day</h2>
+        <div class="features-grid">
+            <!-- Professionals Section -->
+            <div class="feature-card">
+                <i class="fas fa-briefcase fa-2x"></i>
+                <h3 data-i18n="benefits.professionalsTitle">For Professionals</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Stay on schedule during meetings</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Time-block your work effectively</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Maintain productivity awareness</span>
+                    </li>
                 </ul>
-                
-                <h4 data-i18n="privacy.dataUsage.title">Data Usage</h4>
-                <p data-i18n="privacy.dataUsage.description">Your data is used solely for providing AR features and improving app functionality. We never sell your personal information to third parties.</p>
-                
-                <h4 data-i18n="privacy.dataProtection.title">Data Protection</h4>
-                <p data-i18n="privacy.dataProtection.description">We implement industry-standard security measures to protect your data.</p>
-                
-                <h4 data-i18n="privacy.rights.title">Your Rights</h4>
-                <p data-i18n="privacy.rights.description">You have the right to:</p>
-                <ul>
-                    <li data-i18n="privacy.rights.items.0">Access your data</li>
-                    <li data-i18n="privacy.rights.items.1">Request data deletion</li>
-                    <li data-i18n="privacy.rights.items.2">Opt out of data collection</li>
+            </div>
+
+            <!-- Accessibility Users Section -->
+            <div class="feature-card">
+                <i class="fas fa-universal-access fa-2x"></i>
+                <h3 data-i18n="benefits.accessibilityTitle">For Accessibility Users</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Clear voice announcements</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Customizable speaking speed</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Multiple language support</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Students Section -->
+            <div class="feature-card">
+                <i class="fas fa-graduation-cap fa-2x"></i>
+                <h3 data-i18n="benefits.studentsTitle">For Students</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Track study sessions</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Manage exam time effectively</span>
+                    </li>
+                    <li style="margin-bottom: 0.8rem;">
+                        <i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>
+                        <span>Stay focused with time checks</span>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Footer with expanded links -->
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <h2 data-i18n="features.title">Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-clock fa-2x"></i>
+                <h3 data-i18n="features.clockStyle.h3">Multiple Clock Styles</h3>
+                <p data-i18n="features.clockStyle.p">Choose from minimal, classic, modern, or digital display styles</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-volume-up fa-2x"></i>
+                <h3 data-i18n="features.voiceCustomization.h3">Voice Customization</h3>
+                <p data-i18n="features.voiceCustomization.p">Adjust speed, volume, and select from multiple languages</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-hourglass-half fa-2x"></i>
+                <h3 data-i18n="features.intervals.h3">Flexible Intervals</h3>
+                <p data-i18n="features.intervals.p">Set custom announcement intervals from 1 minute to 1 hour</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-moon fa-2x"></i>
+                <h3 data-i18n="features.quietHours.h3">Quiet Hours</h3>
+                <p data-i18n="features.quietHours.p">Set specific hours when announcements should be silenced</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 data-i18n="contact.title">Contact Us</h2>
+        <div class="contact-content">
+            <p data-i18n="contact.description">Have questions or feedback? We'd love to hear from you!</p>
+            <div class="contact-methods">
+                <a href="mailto:harmonyastroapp@gmail.com" class="contact-method">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span data-i18n="contact.emailUs">Email Us</span>
+                </a>
+                <a href="https://twitter.com/" class="contact-method">
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <span data-i18n="contact.followUs">Follow Us</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Privacy Policy Section -->
+<section id="privacy" class="privacy">
+    <div class="container">
+        <h2 data-i18n="privacy.title">Privacy Policy</h2>
+        <div class="privacy-content">
+            <p data-i18n="privacy.commitment">At Talking Clock Pro, we are committed to protecting your privacy and ensuring complete transparency about our data practices.</p>
+            
+            <div class="privacy-details">
+                <p data-i18n="privacy.intro">Talking Clock Pro respects your privacy. The app only requires:</p>
+                <div class="permission-items">
+                    <div class="permission-item">
+                        <i class="fas fa-microphone fa-2x"></i>
+                        <span data-i18n="privacy.audioPermission">Audio permissions for announcements</span>
+                    </div>
+                    <div class="permission-item">
+                        <i class="fas fa-clock fa-2x"></i>
+                        <span data-i18n="privacy.backgroundPermission">Background operation permission for continuous functionality</span>
+                    </div>
+                </div>
+                
+                <div class="privacy-guarantee">
+                    <i class="fas fa-shield-alt fa-2x"></i>
+                    <p data-i18n="privacy.dataPolicy">No personal data is collected or shared with third parties.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
 <footer>
     <div class="container">
         <div class="footer-content">
             <div class="footer-links">
-                <a href="#features" data-i18n="nav.features">Features</a>
-                <a href="#learn-more" data-i18n="hero.learnMore">Learn More</a>
-                <a href="#privacy" data-i18n="nav.privacy">Privacy Policy</a>
-                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <a href="#features">Features</a>
+                <a href="#learn-more">Learn More</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#contact">Contact</a>
             </div>
-            <p data-i18n="footer.copyright">&copy; 2024 SkySeekr. All rights reserved.</p>
+            <p>&copy; 2024 Talking Clock Pro. All rights reserved.</p>
         </div>
     </div>
 </footer>
-<!-- Add this before closing body tag -->
 <script src="src/scripts/screenshot-scroll.js"></script>
 <script src="src/scripts/translations.js"></script>
-</body>
-</html>
 </body>
 </html>

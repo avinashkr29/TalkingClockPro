@@ -7,50 +7,49 @@ const translations = {
             privacy: "Privacy"
         },
         hero: {
-            subtitle: "AR for the adventurous soul",
-            description: "Unlock the secrets of the sky with augmented reality. Discover landmarks, track celestial bodies, and explore the world around you.",
+            subtitle: "Your Personal Time Announcer",
+            description: "Stay on schedule with elegant time announcements. Perfect for productivity, accessibility, and maintaining time awareness throughout your day.",
             downloadNow: "Download Now",
             learnMore: "Learn More"
         },
         benefits: {
-            title: "How SkySeekr Enhances Your Experience",
-            outdoorTitle: "For Outdoor Enthusiasts & Hikers",
-            outdoorList: [
-                "Never get lost at viewpoints",
-                "Discover hidden landmarks",
-                "Plan routes effectively",
-                "Share discoveries with fellow hikers"
+            title: "How Talking Clock Pro Enhances Your Day",
+            professionalsTitle: "For Professionals",
+            professionalsList: [
+                "Stay on schedule during meetings",
+                "Time-block your work effectively",
+                "Maintain productivity awareness"
             ],
-            astronomyTitle: "For Astronomy Enthusiasts & Students",
-            astronomyList: [
-                "Interactive astronomy learning",
-                "Real-world geography lessons",
-                "Engaging educational tool",
-                "No need for expensive equipment"
+            accessibilityTitle: "For Accessibility Users",
+            accessibilityList: [
+                "Clear voice announcements",
+                "Customizable speaking speed",
+                "Multiple language support"
             ],
-            travelersTitle: "For Travelers & Tourists",
-            travelersList: [
-                "Instant landmark identification",
-                "Create memorable experiences",
-                "Smart trip planning",
-                "Discover local points of interest"
-            ],
-            description: "SkySeekr transforms your smartphone into a powerful tool for exploration and discovery. Whether you're hiking through mountains, studying the night sky, or exploring a new city, our AR technology makes every experience more informative and engaging.",
-            startExploring: "Start Exploring Now"
+            studentsTitle: "For Students",
+            studentsList: [
+                "Track study sessions",
+                "Manage exam time effectively",
+                "Stay focused with time checks"
+            ]
         },
         features: {
             title: "Key Features",
-            landmarkSpotter: {
-                title: "Landmark Spotter",
-                description: "Identify mountains and landmarks in real-time using advanced AR technology"
+            clockStyle: {
+                h3: "Multiple Clock Styles",
+                p: "Choose from minimal, classic, modern, or digital display styles"
             },
-            planetSpotter: {
-                title: "Planet Spotter",
-                description: "Find and observe planets, the Sun, and the Moon in real-time"
+            voiceCustomization: {
+                h3: "Voice Customization",
+                p: "Adjust speed, volume, and select from multiple languages"
             },
-            customPackages: {
-                title: "Custom Packages",
-                description: "Create and manage your own sets of landmarks for personalized exploration"
+            intervals: {
+                h3: "Flexible Intervals",
+                p: "Set custom announcement intervals from 1 minute to 1 hour"
+            },
+            quietHours: {
+                h3: "Quiet Hours",
+                p: "Set specific hours when announcements should be silenced"
             }
         },
         contact: {
@@ -59,40 +58,13 @@ const translations = {
             emailUs: "Email Us",
             followUs: "Follow Us"
         },
-
         privacy: {
             title: "Privacy Policy",
-            subtitle: "Your Privacy Matters",
-            intro: "At SkySeekr, we take your privacy seriously. Here's what you need to know about how we handle your data:",
-            dataCollection: {
-                title: "Data Collection",
-                description: "We collect minimal data necessary for app functionality, including:",
-                items: [
-                    "Location data (only when using the app)",
-                    "Device orientation data",
-                    "Camera access (only when using AR features)"
-                ]
-            },
-            dataUsage: {
-                title: "Data Usage",
-                description: "Your data is used solely for providing AR features and improving app functionality. We never sell your personal information to third parties."
-            },
-            dataProtection: {
-                title: "Data Protection",
-                description: "We implement industry-standard security measures to protect your data."
-            },
-            rights: {
-                title: "Your Rights",
-                description: "You have the right to:",
-                items: [
-                    "Access your data",
-                    "Request data deletion",
-                    "Opt out of data collection"
-                ]
-            }
-        },
-        footer: {
-            copyright: "© 2024 SkySeekr. All rights reserved."
+            commitment: "At Talking Clock Pro, we are committed to protecting your privacy and ensuring complete transparency about our data practices.",
+            intro: "Talking Clock Pro respects your privacy. The app only requires:",
+            audioPermission: "Audio permissions for announcements",
+            backgroundPermission: "Background operation permission for continuous functionality",
+            dataPolicy: "No personal data is collected or shared with third parties."
         }
     },
     ja: {
@@ -103,50 +75,49 @@ const translations = {
             privacy: "プライバシー"
         },
         hero: {
-            subtitle: "冒険する魂のためのAR",
-            description: "拡張現実で空の秘密を解き明かしましょう。ランドマークを発見し、天体を追跡し、周りの世界を探検しましょう。",
+            subtitle: "あなたの個人的な時間アナウンサー",
+            description: "エレガントな時間アナウンスで予定通りに。生産性、アクセシビリティ、そして一日を通じての時間認識に最適です。",
             downloadNow: "今すぐダウンロード",
             learnMore: "詳細を見る"
         },
         benefits: {
-            title: "SkySeekrがもたらす体験の向上",
-            outdoorTitle: "アウトドア愛好家とハイカーの方々へ",
-            outdoorList: [
-                "展望ポイントで迷わない",
-                "隠れたランドマークを発見",
-                "効果的なルート計画",
-                "発見を仲間と共有"
+            title: "Talking Clock Proがあなたの一日をより良くする方法",
+            professionalsTitle: "プロフェッショナルの方へ",
+            professionalsList: [
+                "会議中のスケジュール管理",
+                "効果的な時間ブロッキング",
+                "生産性の意識を維持"
             ],
-            astronomyTitle: "天文学愛好家と学生の方々へ",
-            astronomyList: [
-                "インタラクティブな天文学習",
-                "実世界の地理学習",
-                "魅力的な教育ツール",
-                "高価な機器不要"
+            accessibilityTitle: "アクセシビリティユーザーの方へ",
+            accessibilityList: [
+                "クリアな音声アナウンス",
+                "カスタマイズ可能な話速",
+                "多言語サポート"
             ],
-            travelersTitle: "旅行者と観光客の方々へ",
-            travelersList: [
-                "即座のランドマーク識別",
-                "思い出に残る体験を作成",
-                "スマートな旅行計画",
-                "地域の見どころを発見"
-            ],
-            description: "SkySeekrはあなたのスマートフォンを探検と発見のための強力なツールに変えます。山歩き、夜空の観察、新しい街の探検など、私たちのAR技術があらゆる体験をより有意義で魅力的なものにします。",
-            startExploring: "今すぐ探検を始める"
+            studentsTitle: "学生の方へ",
+            studentsList: [
+                "学習セッションの記録",
+                "試験時間の効果的な管理",
+                "時間チェックで集中力を維持"
+            ]
         },
         features: {
             title: "主な機能",
-            landmarkSpotter: {
-                title: "ランドマークスポッター",
-                description: "高度なAR技術を使用してリアルタイムで山やランドマークを識別"
+            clockStyle: {
+                h3: "複数の時計スタイル",
+                p: "ミニマル、クラシック、モダン、デジタル表示から選択可能"
             },
-            planetSpotter: {
-                title: "プラネットスポッター",
-                description: "リアルタイムで惑星、太陽、月を見つけて観察"
+            voiceCustomization: {
+                h3: "音声カスタマイズ",
+                p: "速度、音量の調整と複数言語からの選択が可能"
             },
-            customPackages: {
-                title: "カスタムパッケージ",
-                description: "パーソナライズされた探検のために独自のランドマークセットを作成・管理"
+            intervals: {
+                h3: "柔軟な間隔設定",
+                p: "1分から1時間までのカスタム通知間隔を設定"
+            },
+            quietHours: {
+                h3: "静音時間",
+                p: "通知を停止する特定の時間帯を設定"
             }
         },
         contact: {
@@ -155,47 +126,18 @@ const translations = {
             emailUs: "メールを送る",
             followUs: "フォローする"
         },
-
         privacy: {
             title: "プライバシーポリシー",
-            subtitle: "あなたのプライバシーを大切に",
-            intro: "SkySeekrでは、お客様のプライバシーを重視しています。データの取り扱いについて、以下の点をご確認ください：",
-            dataCollection: {
-                title: "データ収集",
-                description: "アプリの機能に必要な最小限のデータのみを収集しています：",
-                items: [
-                    "位置データ（アプリ使用時のみ）",
-                    "デバイスの向きデータ",
-                    "カメラアクセス（AR機能使用時のみ）"
-                ]
-            },
-            dataUsage: {
-                title: "データの使用",
-                description: "お客様のデータはAR機能の提供とアプリの機能改善にのみ使用されます。個人情報を第三者に販売することは一切ありません。"
-            },
-            dataProtection: {
-                title: "データ保護",
-                description: "業界標準のセキュリティ対策を実施してお客様のデータを保護しています。"
-            },
-            rights: {
-                title: "お客様の権利",
-                description: "お客様には以下の権利があります：",
-                items: [
-                    "データへのアクセス",
-                    "データの削除リクエスト",
-                    "データ収集のオプトアウト"
-                ]
-            }
-        },
-
-        footer: {
-            copyright: "© 2024 SkySeekr. All rights reserved."
+            commitment: "Talking Clock Proは、お客様のプライバシーを保護し、データ取り扱いについて完全な透明性を確保することを約束します。",
+            intro: "Talking Clock Proはあなたのプライバシーを尊重します。アプリに必要な権限は以下のみです：",
+            audioPermission: "アナウンスのための音声権限",
+            backgroundPermission: "継続的な機能のためのバックグラウンド動作権限",
+            dataPolicy: "個人データの収集や第三者との共有は行いません。"
         }
     }
 };
 
-
-// Improved language toggle function
+// Language toggle function
 function toggleLanguage() {
     const currentLang = document.documentElement.lang || 'en';
     const newLang = currentLang === 'en' ? 'ja' : 'en';
@@ -203,17 +145,17 @@ function toggleLanguage() {
     // Update content with new language
     updateContent(newLang);
     
-    // Update toggle button text (opposite of current language)
+    // Update toggle button text
     const langToggle = document.getElementById('langToggle');
     if (langToggle) {
         langToggle.textContent = newLang === 'en' ? '日本語' : 'English';
     }
     
-    // Save language preference to localStorage
+    // Save language preference
     localStorage.setItem('preferredLanguage', newLang);
 }
 
-// Improved content update function
+// Content update function
 function updateContent(lang) {
     if (!translations[lang]) {
         console.error(`Language ${lang} not found in translations`);
@@ -231,17 +173,14 @@ function updateContent(lang) {
         if (!key) return;
 
         try {
-            // Split the key into parts (e.g., "nav.features" -> ["nav", "features"])
             const keys = key.split('.');
             let value = content;
             
-            // Navigate through the nested objects to get the translation
             for (const k of keys) {
                 value = value[k];
                 if (value === undefined) throw new Error(`Translation not found for key: ${key}`);
             }
             
-            // Update element content based on its type
             if (element.tagName === 'INPUT') {
                 element.placeholder = value;
             } else {
@@ -255,13 +194,12 @@ function updateContent(lang) {
 
 // Initialize language on page load
 document.addEventListener('DOMContentLoaded', () => {
-    // Check for saved language preference
     const savedLang = localStorage.getItem('preferredLanguage') || 'en';
     
     // Initialize content with saved language
     updateContent(savedLang);
     
-    // Update toggle button to show opposite language
+    // Update toggle button text
     const langToggle = document.getElementById('langToggle');
     if (langToggle) {
         langToggle.textContent = savedLang === 'en' ? '日本語' : 'English';

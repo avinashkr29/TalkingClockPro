@@ -434,3 +434,59 @@ footer {
     align-items: center;
     gap: 1.5rem;
 }
+
+.privacy {
+    padding: 4rem 0;
+}
+
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.privacy-details {
+    margin-top: 2rem;
+}
+
+.permission-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.permission-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.permission-item i {
+    color: #007bff;
+}
+
+.privacy-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.privacy-guarantee i {
+    color: #28a745;
+}
+
+.privacy-guarantee p {
+    margin: 0;
+}
