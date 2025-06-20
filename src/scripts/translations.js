@@ -7,49 +7,47 @@ const translations = {
             privacy: "Privacy"
         },
         hero: {
-            subtitle: "Your Personal Time Announcer",
-            description: "Stay on schedule with elegant time announcements. Perfect for productivity, accessibility, and maintaining time awareness throughout your day.",
+            subtitle: "Hands-Free Time Management",
+            description: "Eyes free, hands free, stress free. Get time updates while focusing on what matters most. Perfect for ADHD, accessibility, multitasking, and everyday life scenarios.",
             downloadNow: "Download Now",
             learnMore: "Learn More"
         },
         benefits: {
-            title: "How Talking Clock Pro Enhances Your Day",
-            professionalsTitle: "For Professionals",
-            professionalsList: [
-                "Stay on schedule during meetings",
-                "Time-block your work effectively",
-                "Maintain productivity awareness"
-            ],
+            title: "How Voice Clock Time Speaker Enhances Your Day",
+            adhdTitle: "For ADHD & Remote Workers",
+            adhd1: "Stay focused without checking your phone",
+            adhd2: "Time-block your work effectively",
+            adhd3: "Never lose track of time again",
             accessibilityTitle: "For Accessibility Users",
-            accessibilityList: [
-                "Clear voice announcements",
-                "Customizable speaking speed",
-                "Multiple language support"
-            ],
-            studentsTitle: "For Students",
-            studentsList: [
-                "Track study sessions",
-                "Manage exam time effectively",
-                "Stay focused with time checks"
-            ]
+            accessibility1: "Crystal clear voice announcements",
+            accessibility2: "Hands-free time awareness",
+            accessibility3: "15+ language options with native voices",
+            everydayTitle: "For Everyday Life",
+            everyday1: "Perfect for shower, cooking, or workouts",
+            everyday2: "Stay on schedule while driving",
+            everyday3: "Manage time during any activity",
+            caregiversTitle: "For Students & Caregivers",
+            caregivers1: "Track study sessions and breaks",
+            caregivers2: "Manage patient care schedules",
+            caregivers3: "Gentle time reminders without disruption"
         },
         features: {
             title: "Key Features",
-            clockStyle: {
-                h3: "Multiple Clock Styles",
-                p: "Choose from minimal, classic, modern, or digital display styles"
+            multilingual: {
+                h3: "15+ Languages Support",
+                p: "Multiple voice options with natural pronunciation in your preferred language"
             },
-            voiceCustomization: {
-                h3: "Voice Customization",
-                p: "Adjust speed, volume, and select from multiple languages"
+            smartModes: {
+                h3: "Smart Announcement Modes",
+                p: "Clock-aligned and interval-based announcements to fit your workflow"
             },
-            intervals: {
-                h3: "Flexible Intervals",
-                p: "Set custom announcement intervals from 1 minute to 1 hour"
+            efficiency: {
+                h3: "Minimal Battery Usage",
+                p: "Lightweight design with smooth background operation that won't drain your battery"
             },
-            quietHours: {
-                h3: "Quiet Hours",
-                p: "Set specific hours when announcements should be silenced"
+            customization: {
+                h3: "Completely Customizable",
+                p: "Adjust intervals, quiet hours, voice settings, and time formats to match your needs"
             }
         },
         contact: {
@@ -60,8 +58,8 @@ const translations = {
         },
         privacy: {
             title: "Privacy Policy",
-            commitment: "At Talking Clock Pro, we are committed to protecting your privacy and ensuring complete transparency about our data practices.",
-            intro: "Talking Clock Pro respects your privacy. The app only requires:",
+            commitment: "At Voice Clock Time Speaker, we are committed to protecting your privacy and ensuring complete transparency about our data practices.",
+            intro: "Voice Clock Time Speaker respects your privacy. The app only requires:",
             audioPermission: "Audio permissions for announcements",
             backgroundPermission: "Background operation permission for continuous functionality",
             dataPolicy: "No personal data is collected or shared with third parties."
@@ -75,49 +73,47 @@ const translations = {
             privacy: "プライバシー"
         },
         hero: {
-            subtitle: "あなたの個人的な時間アナウンサー",
-            description: "エレガントな時間アナウンスで予定通りに。生産性、アクセシビリティ、そして一日を通じての時間認識に最適です。",
+            subtitle: "ハンズフリー時間管理",
+            description: "目も手も使わず、ストレスフリー。大切なことに集中しながら時間をお知らせ。ADHD、アクセシビリティ、マルチタスク、日常生活に最適。",
             downloadNow: "今すぐダウンロード",
             learnMore: "詳細を見る"
         },
         benefits: {
-            title: "Talking Clock Proがあなたの一日をより良くする方法",
-            professionalsTitle: "プロフェッショナルの方へ",
-            professionalsList: [
-                "会議中のスケジュール管理",
-                "効果的な時間ブロッキング",
-                "生産性の意識を維持"
-            ],
+            title: "Voice Clock Time Speakerがあなたの一日をより良くする方法",
+            adhdTitle: "ADHD・リモートワーカーの方へ",
+            adhd1: "スマホを見ずに集中を維持",
+            adhd2: "効果的な時間ブロッキング",
+            adhd3: "時間を見失うことがなくなります",
             accessibilityTitle: "アクセシビリティユーザーの方へ",
-            accessibilityList: [
-                "クリアな音声アナウンス",
-                "カスタマイズ可能な話速",
-                "多言語サポート"
-            ],
-            studentsTitle: "学生の方へ",
-            studentsList: [
-                "学習セッションの記録",
-                "試験時間の効果的な管理",
-                "時間チェックで集中力を維持"
-            ]
+            accessibility1: "クリスタルクリアな音声アナウンス",
+            accessibility2: "ハンズフリーな時間認識",
+            accessibility3: "15以上の言語でネイティブ音声対応",
+            everydayTitle: "日常生活の方へ",
+            everyday1: "シャワー、料理、ワークアウトに最適",
+            everyday2: "運転中のスケジュール管理",
+            everyday3: "あらゆる活動中の時間管理",
+            caregiversTitle: "学生・介護者の方へ",
+            caregivers1: "学習セッションと休憩の記録",
+            caregivers2: "患者ケアスケジュールの管理",
+            caregivers3: "邪魔にならない優しい時間リマインダー"
         },
         features: {
             title: "主な機能",
-            clockStyle: {
-                h3: "複数の時計スタイル",
-                p: "ミニマル、クラシック、モダン、デジタル表示から選択可能"
+            multilingual: {
+                h3: "15以上の言語サポート",
+                p: "お好みの言語で自然な発音の複数音声オプション"
             },
-            voiceCustomization: {
-                h3: "音声カスタマイズ",
-                p: "速度、音量の調整と複数言語からの選択が可能"
+            smartModes: {
+                h3: "スマートアナウンスモード",
+                p: "時計合わせとインターバルベースのアナウンスでワークフローに適応"
             },
-            intervals: {
-                h3: "柔軟な間隔設定",
-                p: "1分から1時間までのカスタム通知間隔を設定"
+            efficiency: {
+                h3: "最小限のバッテリー使用",
+                p: "バッテリーを消耗しないスムーズなバックグラウンド動作の軽量設計"
             },
-            quietHours: {
-                h3: "静音時間",
-                p: "通知を停止する特定の時間帯を設定"
+            customization: {
+                h3: "完全カスタマイズ可能",
+                p: "インターバル、静音時間、音声設定、時間フォーマットをニーズに合わせて調整"
             }
         },
         contact: {
@@ -128,8 +124,8 @@ const translations = {
         },
         privacy: {
             title: "プライバシーポリシー",
-            commitment: "Talking Clock Proは、お客様のプライバシーを保護し、データ取り扱いについて完全な透明性を確保することを約束します。",
-            intro: "Talking Clock Proはあなたのプライバシーを尊重します。アプリに必要な権限は以下のみです：",
+            commitment: "Voice Clock Time Speakerは、お客様のプライバシーを保護し、データ取り扱いについて完全な透明性を確保することを約束します。",
+            intro: "Voice Clock Time Speakerはあなたのプライバシーを尊重します。アプリに必要な権限は以下のみです：",
             audioPermission: "アナウンスのための音声権限",
             backgroundPermission: "継続的な機能のためのバックグラウンド動作権限",
             dataPolicy: "個人データの収集や第三者との共有は行いません。"
