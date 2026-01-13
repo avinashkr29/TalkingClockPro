@@ -4,7 +4,8 @@ const translations = {
             features: "Features",
             download: "Download",
             contact: "Contact",
-            privacy: "Privacy"
+            privacy: "Privacy",
+            faq: "FAQ"
         },
         hero: {
             subtitle: "Hands-Free Time Management",
@@ -70,7 +71,8 @@ const translations = {
             features: "機能",
             download: "ダウンロード",
             contact: "お問い合わせ",
-            privacy: "プライバシー"
+            privacy: "プライバシー",
+            faq: "よくある質問"
         },
         hero: {
             subtitle: "ハンズフリー時間管理",
