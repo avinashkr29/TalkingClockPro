@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "WebFetch(domain:apps.apple.com)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  }
+}
